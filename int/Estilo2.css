@@ -1,0 +1,152 @@
+				
+				.BordaTabela {
+					border: none;
+					padding: 5px;				
+				}
+				.BordaColuna:hover{	
+					border-style: hidden ;
+					background-color: #343a40;
+				}
+
+				.BordaColuna{
+					border-style: hidden ;
+					background: lightgray;
+					padding: 2px;
+					margin: 10px;
+					transition: background-color 2s;
+					text-decoration: none;
+					max-width: 100%;
+					
+				}
+
+				.BordaLinha{
+					list-style: none;
+					padding: 20px;
+					margin-right: -15px;
+  					margin-left: -15px;
+  					position: absolute;
+  					top: -25;
+  					left: 500;
+				}
+
+				.Texto{
+					font-family: Segoe UI Symbol;
+					color: gray;
+					letter-spacing: 4px;
+					text-align:center;
+					text-transform: uppercase;
+
+				}
+
+				.DesignPG{
+					background-color: #f8f9fa;
+    				border: none;
+    				color: black;
+    				padding: 16px 32px;
+    				text-decoration: none;
+    				margin:0px;
+    				font-family: Segoe UI Emoji;
+    				text-align: left;
+				}
+				.DesignTexto{
+					background-color: none ;
+    				border: none;
+    				color: black;
+    				padding: 16px 32px;
+    				text-decoration: none;
+    				margin: 4px 2px;
+    				font-family: Arial;
+    				text-decoration: none;
+    				letter-spacing: 2px;
+				}
+				.EstiloImagem{
+					
+    				padding: 10px 20px;
+    				border-radius: 8px;
+    				background-color: #e7e7e7;
+    				margin: 8px 0;
+    				transition: background-color 2s;
+				}
+				.EstiloImagem:hover{
+					background-color: gray ; 
+				}
+
+				input[type=text], [type=password],select {
+    			width: 30%;
+    			padding: 12px 20px;
+    			margin: 8px 0;
+    			display: inline-block;
+    			border: 1px solid #ccc;
+    			border-radius: 4px;
+    			box-sizing: border-box;
+				}
+
+				.EstiloSelect{
+				width: 10%;
+    			padding: 12px 20px;
+    			margin: 8px 0;
+    			display: inline-block;
+    			border: 1px solid #ccc;
+    			border-radius: 4px;
+    			box-sizing: border-box;
+
+				}
+
+				.EstiloBotao {
+    			background-color: #6c757d; /* Gray */
+    			border: none;
+    			color: white;
+    			padding: 15px 32px;
+    			text-align: center;
+    			text-decoration: none;
+    			display: inline-block;
+    			font-size: 16px;
+    			border-radius: 4px;
+    			transition: background-color 2s;
+				}
+
+				.EstiloBotao:hover{
+					background-color: #17a2b8 ; 
+				}
+
+				.EstiloFormulario{
+					border:none;
+					background-color: #E6E6FA; 
+					padding: 15px 32px;
+				}
+
+				figure.FotoLegenda{
+					position: relative;
+					border: 8px solid white;
+					box-shadow: 1px 1px 4px black;
+				}
+
+				figure.FotoLegenda img {
+					width: 100%;
+					height: 100%;
+				}
+
+				figure.FotoLegenda figcaption{
+					opacity: 0;
+					position: absolute;
+					top:0px;
+					background-color: rgb(0,0,0,.4);
+					color: white;
+					width: 100%;
+					height:100%;
+					padding: 10px;
+					box-sizing: border-box;
+					transition: 1s;
+				}
+				figure.FotoLegenda:hover figcaption{
+					opacity: 1;
+				}
+
+				.EstilhoCabecalho{
+					border-bottom: 1px #606060 solid;
+					height: 150px;
+					
+
+					
+				}
+
